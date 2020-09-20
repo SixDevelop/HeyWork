@@ -1,0 +1,50 @@
+$primaryColor: #3C3C9A;
+$backgroundColor: #FAFAFA;
+$primaryTextColor: #2C2C2C;
+$secondaryTextColor: #FFF;
+
+$containerWidth: 100%;
+
+.container{
+    width: $containerWidth;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.loginContainer{
+    border: 1px solid $primaryTextColor;
+    border-radius: 5px;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    background-color: $backgroundColor;
+    border: none;
+    border-bottom: 1px solid $primaryTextColor;
+    margin: 1vh;
+    font-size: 2vh;
+    outline: none;
+}
+
+button{
+    width: 5vw;
+    height: 3vh;
+    background-color: $backgroundColor;
+    border: 1px solid $primaryColor;
+    border-radius: 5px;
+    font-size: 2vh;
+    color: $primaryColor;
+    margin-top: 2vh;
+}
+

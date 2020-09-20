@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/header.scss';
 
+import{Link} from 'react-router-dom'
+
 export default class Header extends React.Component{
     render(){
         return(<>
@@ -12,7 +14,7 @@ export default class Header extends React.Component{
                 <div className="inputContainer">
                     <input type="text" className="search input search-input" placeholder = "search by name"/>
                 </div>               
-                <p className= "text">SignIn</p>
+                <Link to="/login" className= "text">SignIn</Link>
                 <p className= "text">SignUp</p>               
             </div>
             </>
